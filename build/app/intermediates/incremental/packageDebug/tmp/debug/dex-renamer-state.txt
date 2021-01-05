@@ -1,0 +1,4 @@
+#Thu Dec 24 17:48:15 ICT 2020
+base.0=/Users/swagsoft2016/Documents/Flutter/mitsubishi_git_flutter/mitsubishi_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
