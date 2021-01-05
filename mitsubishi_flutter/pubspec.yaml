@@ -1,4 +1,4 @@
-name: mitsubishi_flutter
+name: mistubishi_example_app
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -28,12 +28,26 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_tabler_icons: ^1.0.2
+  flutter_svg: ^0.19.2+1
+  dots_indicator: ^1.2.0
+  page_transition: ^1.1.7+3
+  permission_handler: ^5.0.1
+  http: ^0.12.2
+  provider: ^4.3.2+3
+  path_provider: ^1.6.24
+  extended_image: ^1.5.0
+  native_pdf_view: ^3.9.0
+  share: ^0.6.5+4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_test:
     sdk: flutter
+    
+dependency_overrides:
+  extended_image: 1.5.0-dev
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -47,7 +61,18 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/mitsubishi-forklift-truck-500x500.jpg
+    - assets/logo-mits.png
+    - assets/slogan.png
+    - assets/chain.jpg
+    - assets/background.jpg
+    - assets/truck_item.jpg
+    - assets/ic_pdf_file.svg
+    - assets/ic_forklift_truck.svg
+    - assets/ic_play_button.svg
+    - assets/ic_image.svg
+    - assets/zoompan.pdf
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -62,7 +87,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family : Cuprum
+      fonts:
+        - asset: fonts/Cuprum-Italic.ttf
+        - asset: fonts/Cuprum.ttf
+    - family: GloriaHallelujah
+      fonts:
+        - asset: fonts/GloriaHallelujah-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
